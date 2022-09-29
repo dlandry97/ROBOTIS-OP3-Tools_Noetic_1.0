@@ -101,7 +101,7 @@ bool QNodeOP3::init()
   // start time
   start_time_ = ros::Time::now();
 
-  tf_listener_.reset( new tf::TransformListener());
+  // tf_listener_.reset( new tf::TransformListener());
 
   // start qthread
   start();  
