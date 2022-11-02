@@ -380,7 +380,7 @@ void OffsetTunerServer::getInitPose(const std::string &path)
     has_offset_file = true;
   } catch (const std::exception& e)
   {
-    ROS_ERROR("Fail to load offset yaml file.");
+    ROS_ERROR("Fail to load offset yaml file. tuner server");
     has_offset_file = false;
   }
 
